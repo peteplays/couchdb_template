@@ -7,4 +7,11 @@ create db named `test`
 
 run `node [file_name]`
 
+## Folders
+
+### CouchNode
+Uses `node-couchdb` 
+
+### Request
+Uses `request`
 
