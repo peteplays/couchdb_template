@@ -15,6 +15,10 @@
     "couch",
     "db"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peteplays/couchdb_template"
+  },
   "author": "peteplays",
   "license": "MIT"
 }
