@@ -2,10 +2,6 @@
   "name": "couchtest",
   "version": "1.0.0",
   "description": "couchdb",
-  "main": "index.js",
-  "dependencies": {
-    "couchdb": "^0.3.8"
-  },
   "devDependencies": {
     "couchdb": "^0.3.8",
     "node-couchdb": "^0.5.0",
