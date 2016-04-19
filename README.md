@@ -1,7 +1,7 @@
 # couchdb_template
 
 ## Usage
-run `couchdb` to start the db
+run `couchdb` to start the db locally
 
 create db named `test`
 
