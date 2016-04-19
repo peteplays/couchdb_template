@@ -1,0 +1,24 @@
+{
+  "name": "couchtest",
+  "version": "1.0.0",
+  "description": "couchdb",
+  "main": "index.js",
+  "dependencies": {
+    "couchdb": "^0.3.8"
+  },
+  "devDependencies": {
+    "couchdb": "^0.3.8",
+    "node-couchdb": "^0.5.0",
+    "request": "^2.70.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "couchdb",
+    "couch",
+    "db"
+  ],
+  "author": "peteplays",
+  "license": "MIT"
+}
