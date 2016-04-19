@@ -9,7 +9,7 @@
   "devDependencies": {
     "couchdb": "^0.3.8",
     "node-couchdb": "^0.5.0",
-    "request": "^2.70.0"
+    "request": "^2.72.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
