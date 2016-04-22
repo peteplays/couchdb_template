@@ -1,6 +1,6 @@
 var request = require('request');
 
-var db = 'test'
+var db = 'test';
 
 request.get('http://127.0.0.1:5984/'+db+'/_all_docs',  function (error, response, body) {
   if(error) {
@@ -8,10 +8,10 @@ request.get('http://127.0.0.1:5984/'+db+'/_all_docs',  function (error, response
   }
   if(response) {
   	//console.log(response.body);
-  	//console.log(JSON.parse(body));  
+  	//console.log(JSON.parse(body));
   	var jsonData = JSON.parse(body);
   	jsonData.rows.forEach(function(v) {
-  		console.log(v)
+  		console.log(v);
   	});
   }
 });
