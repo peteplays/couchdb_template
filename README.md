@@ -1,4 +1,4 @@
-# couchdb_template
+# Couchdb Template
 
 ## Usage
 run `couchdb` to start the db locally
@@ -14,4 +14,7 @@ Uses `node-couchdb`
 
 ### Request
 Uses `request`
+
+### Nano
+Uses `nano`
 

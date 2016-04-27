@@ -5,6 +5,7 @@ var db = 'test';
 request.get('http://127.0.0.1:5984/'+db+'/_all_docs',  function (error, response, body) {
   if(error) {
   	console.log(error);
+    return;
   }
   if(response) {
   	//console.log(response.body);

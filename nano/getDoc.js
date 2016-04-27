@@ -2,9 +2,11 @@ var nano = require('nano')('http://foo:bar@localhost:5984');
 
 var alice = nano.use('alice');
 
-var id = 'f7ad8f356665cb063bc5e032970017cd';
+var id = 'e9e59c726a02c979d56e90b524000c2b';
 
-alice.get(id, function(err, body) {
+var name = {"name":"chip"};
+
+alice.get(name, function(err, body) {
     if( !err ) {
         console.log(body);
         return;

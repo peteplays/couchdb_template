@@ -1,6 +1,6 @@
 var nano = require('nano')('http://foo:bar@localhost:5984');
 
-var alice = nano.use('alice');
+var alice = nano.use('deal');
 // var id = 'rabbit';
 
 // alice.insert({ crazy: true }, id, function(err, body, header) {
@@ -12,7 +12,7 @@ var alice = nano.use('alice');
 //   console.log(body);
 // });
 
-alice.insert({ crazy: false, fun: true, colors: ['red', 'blue', 'green'], name:'Mary', stuff:'guitars' }, function(err, body, header) {
+alice.insert({ "name" : "paul", "color" : "red", "fun" : "no" }, function(err, body, header) {
   if( err ) {
     console.log('[alice.insert] ', err.message);
     return;

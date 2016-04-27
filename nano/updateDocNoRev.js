@@ -3,9 +3,9 @@ var _ = require('underscore');
 
 var alice = nano.use('alice');
 
-var id = 'f7ad8f356665cb063bc5e032970037f5';
+var id = 'e9e59c726a02c979d56e90b524000c2b';
 
-var update_fields = {name:'Mary', crazy:false, home:true};
+var update_fields = {name:'Pete', crazy:false, home:false, color:'blue'};
 
 alice.get(id, function(err, body) {
     if( !err ) {

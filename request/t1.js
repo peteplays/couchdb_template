@@ -19,6 +19,7 @@ var search_q = '?startkey=1&endkey=3';
 request.get('http://foo:bar@127.0.0.1:5984/'+input_db+design+design_q+'/'+search_q, function (error, response, body) {
   if(error) {
   	console.log(error);
+  	return;
   }
   if(response) {
   	console.log(response.body);
